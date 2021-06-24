@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606245497810",
+    "project_id": "video-app-ddd77",
+    "storage_bucket": "video-app-ddd77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606245497810:android:e170a88b205ac6b0f9f60b",
+        "android_client_info": {
+          "package_name": "com.video_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606245497810-4up925mukg3dmv8282ge2muj9qib5dh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKpwuHl0ifiEIys9sVRTKPgU6KDLF_8Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606245497810-4up925mukg3dmv8282ge2muj9qib5dh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
