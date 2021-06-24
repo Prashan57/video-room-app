@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
+import 'package:expandable_bottom_bar/expandable_bottom_bar.dart';
 
 TextStyle MyStyle(double size, [Color color, FontWeight fw = FontWeight.w700]) {
   return GoogleFonts.montserrat(fontSize: size, color: color, fontWeight: fw);
@@ -10,9 +10,6 @@ TextStyle MyStyle(double size, [Color color, FontWeight fw = FontWeight.w700]) {
 
 CollectionReference userCollection =
     FirebaseFirestore.instance.collection('users');
-
-import 'package:expandable_bottom_bar/expandable_bottom_bar.dart';
-import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
